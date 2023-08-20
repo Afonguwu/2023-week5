@@ -1,7 +1,6 @@
-@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-@import './layout/variable';
-@import './layout/base';
-@import './layout/utilities';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './layout/base.scss';
+@import './layout/utilities.scss';
 @import './layout/nav.scss';
 
 

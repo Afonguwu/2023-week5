@@ -1,0 +1,48 @@
+
+nav{
+    padding-top: 32px;
+    width: 23%;
+    background-color: $gray-100;
+    h2 a:hover,a:focus{
+        color:$success;
+        
+    }
+    li:hover,li:focus{
+        border-left:4px solid $success;
+    }
+}
+// logo hidden
+h1{
+    margin-left: 32px;
+    margin-bottom: 32px;
+    a{
+        background-image: url('../images/logo-ANSWER.svg');
+        width: 151px;
+        height: 40px;
+        display:block;
+        text-indent:101%;
+        overflow:hidden;
+        white-space:nowrap;
+    }
+}
+// icons-fill
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.user{
+    margin-left: 32px;
+    margin-bottom: 32px;
+    img{
+        width: 40px;
+        height: 40px;
+
+    }
+    .mail-style{
+        font-size: 14px;
+        color: $gray-600;
+    }
+}

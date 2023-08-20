@@ -1,13 +1,13 @@
 // font
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 // icon
-@import url("https://material.io/tools/icons/?style=baseline");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 *,*:after,*:before{
     box-sizing: border-box;
 }
 body{
-    font-family:'Noto Sans TC','Roboto',sans-serif;
+    font-family: 'Lato', 'Roboto Mono',sans-serif;
     line-height: 1.5;
     a{
         text-decoration: none;
