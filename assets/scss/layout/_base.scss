@@ -1,7 +1,7 @@
 // font
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
 // icon
-@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://material.io/tools/icons/?style=baseline");
 
 *,*:after,*:before{
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body{
     line-height: 1.5;
     a{
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
     img,svg,span{
         vertical-align: middle;
