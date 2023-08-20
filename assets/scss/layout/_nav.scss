@@ -1,9 +1,9 @@
 
 nav{
     padding-top: 32px;
-    width: 23%;
+    min-width: 296px;
     background-color: $gray-100;
-    h2 a:hover,a:focus{
+    li a:hover,a:focus{
         color:$success;
         
     }

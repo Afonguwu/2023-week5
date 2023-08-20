@@ -7,8 +7,31 @@
     <title>Assignment</title>
   </head>
   <body>
+    <div class="d-flex">
     <%- include('./layout/nav'); -%>
+    <main>
+      <header class="d-flex justify-content-between r">
+        <div class="d-flex header-left justify-content-between" >
+        <h2 class="fs-4 fw-bold">Assignment</h2>
+        <select name="assignment-select " class="form-select fw-bold" id="">
+          <option selected value="All Courses">All Courses</option>
+          <option value="Chapter Assignment 1">Chapter Assignment 1</option>
+          <option value="Chapter Assignment 2">Chapter Assignment 2</option>
+          <option value="Final Assignment">Final Assignment</option>
+        </select>
+        </div>
+        <div class="header-right d-flex justify-content-between">
+          <span class="material-symbols-outlined">
+            search
+            </span>
+            <span class="material-symbols-outlined">
+              notifications_active
+              </span>
 
+        </div>
+      </header>
+    </main>
+    </div>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
