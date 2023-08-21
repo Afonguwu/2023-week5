@@ -1,14 +1,53 @@
 main{
+    width: 76.8%;
     padding: 32px;
-    width: 77%;
+}
+
+header{
+    margin-bottom: 42px;
 }
 .header-left{
-    width: 29%;
+    width:29%;
     select{
         width: 39%;
-        border:none;
+        background-image: url("https://fontawesome.com/icons/angle-down?f=classic&s=solid&pc=%23198754")  no-repeat;
     }
 }
 .header-right{
     width: 7%;
+}
+.assignment-content{
+    .left-list{
+        -width: 32.5%;
+        p{
+            margin-bottom: 0;
+        }
+        border: 1px solid $gray-400;
+        border-radius: 2px;
+        li{
+            padding: 12px 18px;
+            border-bottom: 1px solid $gray-400;
+
+            &:hover,&:focus{
+                background-color: $gray-100;
+            } 
+            &:last-child{
+                border:none
+            }
+        }
+        
+    }
+    .right-list{
+        width: 59.3%;
+        border: 1px solid $gray-400;
+        border-radius: 2px;
+        li{
+
+        }
+        li:first-child{
+            background-color: $gray-100;
+            border-bottom: 1px solid $gray-400;
+            padding: 12px 16px;
+        }
+    }
 }

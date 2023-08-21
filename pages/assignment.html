@@ -7,13 +7,13 @@
     <title>Assignment</title>
   </head>
   <body>
-    <div class="d-flex">
+    <div class="container d-flex">
     <%- include('./layout/nav'); -%>
     <main>
-      <header class="d-flex justify-content-between r">
+      <header class="d-flex justify-content-between w-100">
         <div class="d-flex header-left justify-content-between" >
         <h2 class="fs-4 fw-bold">Assignment</h2>
-        <select name="assignment-select " class="form-select fw-bold" id="">
+        <select name="title-select " class="form-select fw-bold" id="">
           <option selected value="All Courses">All Courses</option>
           <option value="Chapter Assignment 1">Chapter Assignment 1</option>
           <option value="Chapter Assignment 2">Chapter Assignment 2</option>
@@ -30,6 +30,78 @@
 
         </div>
       </header>
+      <div class="assignment-content d-flex w-100">
+        <div class=" me-3">
+          <select name="assignment-count-select" class="form-select fw-bold mb6" style="width: 100px;" id="">
+            <option selected value="All Courses">All(4)</option>
+          <option value="Chapter Assignment 1">Javascript</option>
+          <option value="Chapter Assignment 2">HTML&CSS</option>
+          <option value="Final Assignment">Vue</option>
+          </select>
+          <ul class="left-list">
+            <li class="d-flex justify-content-between">
+              <div class="w-60">
+                <p class="fz12 mb-1">Chapter Assignment 2</p>
+                <p class="fw-bold text-truncate">Please check this file for me, thanks!</p>
+              </div>
+              <div class="text-right">
+                <p class="fz12 mb-2">4 hrs ago</p>
+                <p class="gray-600 fz12">Emily Wang</p>
+              </div>
+            </li>
+            <li class="d-flex justify-content-between">
+              <div class="w-60">
+                <p class="fz12 mb-1">Chapter Assignment 1</p>
+                <p class="fw-bold text-truncate">My Homework</p>
+              </div>
+              <div class="text-right">
+                <p class="fz12 mb-2">12 hrs ago</p>
+                <p class="gray-600 fz12">David Xu</p>
+              </div>
+            </li>
+            <li class="d-flex justify-content-between">
+              <div class="w-60">
+                <p class="fz12 mb-1">Final Assignment</p>
+                <p class="fw-bold text-truncate">Have a problem with this code</p>
+              </div>
+              <div class="text-right">
+                <p class="fz12 mb-2">18 hrs ago</p>
+                <p class="gray-600 fz12">Tony Wei</p>
+              </div>
+            </li>
+            <li class="d-flex justify-content-between">
+              <div class="w-60">
+                <p class="fz12 mb-1">Final Assignment</p>
+                <p class="fw-bold text-truncate">Did I do it right?</p>
+              </div>
+              <div class="text-right">
+                <p class="fz12 mb-2">Did I do it right?</p>
+                <p class="gray-600 fz12">Christina Lin</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="right-list">
+            <li class="d-flex justify-content-between align-items-center w-100">
+              <div class="">
+                <p class="fz12 mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                <p class="fw-bold text-truncate mb-0">Please check this file for me, thanks!</p>
+              </div>
+              <span class="material-symbols-outlined d-bolck">
+                more_vert
+                </span>
+            </li>
+            <li>
+              <img src="../assets/images/emilywang.jpeg" class="user-img" alt="user-img">
+              <div>
+                <p>Emily Wang</p>
+                <p class="gray-600 fz12">10:38 AM (4 hours ago)</p>
+                <p class="fz14">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the <span class="succcess">img</span>  ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                <button></button>
+              </div>
+            </li>
+        </ul>
+      </div>
     </main>
     </div>
     <script type="module" src="../main.js"></script>
