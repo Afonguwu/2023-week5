@@ -48,3 +48,14 @@ header{
 .border-bottom-400{
 border-bottom: 1px solid $gray-400;
 }
+
+#editorModal{
+    .ck-toolbar{
+        background-color: $gray-100;
+        height: 56px;
+    }
+    .ck-content{
+        height: 263px;
+        
+    }
+}

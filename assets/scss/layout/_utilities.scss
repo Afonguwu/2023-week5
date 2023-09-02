@@ -1,3 +1,7 @@
+.container{
+    max-width: 984px;
+    padding: 32px;
+}
 .w-60{
     width: 60%;
 }
@@ -13,6 +17,9 @@
 .pl32{
     padding-left: 32px;
 }
+.p32{
+    padding: 32px;
+}
 
 .gray-600{
     color: $gray-600;
@@ -25,6 +32,11 @@
 .fz14{
     font-size: 14px;
 }
+
+.border-bottom-g400{
+    border-bottom: 1px solid $gray-400;
+}
+
 
 .container{
     margin-left: 296px;
