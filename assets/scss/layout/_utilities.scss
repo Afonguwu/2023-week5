@@ -8,6 +8,9 @@
 .mb6{
     margin-bottom: 6px;
 }
+.mb21{
+    margin-bottom: 21px;
+}
 .mb32{
     margin-bottom: 32px;
 }
@@ -20,9 +23,21 @@
 .p32{
     padding: 32px;
 }
-
+.px32{
+padding-left: 32px;
+padding-right: 32px;
+}
 .gray-600{
     color: $gray-600;
+}
+.gray-400{
+    color: $gray-400;
+}
+.bg-gray100{
+    background-color: $gray-100;
+}
+.border-gray400{
+    border: 1px solid $gray-400;
 }
 
 .fz12{
